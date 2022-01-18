@@ -1,0 +1,57 @@
+body {
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
+    font-family: "DDG_ProximaNova","DDG_ProximaNova_UI_0","DDG_ProximaNova_UI_1","DDG_ProximaNova_UI_2","DDG_ProximaNova_UI_3","DDG_ProximaNova_UI_4","DDG_ProximaNova_UI_5","DDG_ProximaNova_UI_6","Proxima Nova","Helvetica Neue","Helvetica","Segoe UI","Nimbus Sans L","Liberation Sans","Open Sans";
+    font-weight: 100;
+}
+
+.centerLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:115px;
+    height:115px;
+  }
+
+.Logo {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.Search {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.search_box_attributes {
+    height: 45px;
+    width: 550px;
+    padding: 0px;
+    border: 0px;
+    background: #313131;
+    color: #eeeeee;
+    font-size: 20px;
+}
+
+.search_icon_attributes {
+    width:55px;
+    height:45px;
+}
+
+.Tagline {
+    padding-top: 10px;
+    text-align: center;
+    color: #d3d3d3c4;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}

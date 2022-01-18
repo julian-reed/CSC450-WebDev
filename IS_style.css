@@ -1,0 +1,143 @@
+body {
+    background-color: #f9f9f9;
+    color: black;
+    font-family: "DDG_ProximaNova","DDG_ProximaNova_UI_0","DDG_ProximaNova_UI_1","DDG_ProximaNova_UI_2","DDG_ProximaNova_UI_3","DDG_ProximaNova_UI_4","DDG_ProximaNova_UI_5","DDG_ProximaNova_UI_6","Proxima Nova","Helvetica Neue","Helvetica","Segoe UI","Nimbus Sans L","Liberation Sans","Open Sans";
+    font-weight: 100;
+}
+
+.centerLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:350px;
+    height:70px;
+    padding-bottom: 0px;
+}
+
+.header {
+    padding-top: 0px;
+    text-align: center;
+    font-family: 'nyt-cheltenham',georgia,'times new roman',times,serif;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.section {
+    margin-bottom: 0px;
+}
+
+.topic {
+    color:rgb(44, 44, 253);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 21px;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+.hr_header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 200px;
+}
+
+.title {
+    text-align: center;
+    font-family: "DDG_ProximaNova","DDG_ProximaNova_UI_0","DDG_ProximaNova_UI_1","DDG_ProximaNova_UI_2","DDG_ProximaNova_UI_3","DDG_ProximaNova_UI_4","DDG_ProximaNova_UI_5","DDG_ProximaNova_UI_6","Proxima Nova","Helvetica Neue","Helvetica","Segoe UI","Nimbus Sans L","Liberation Sans","Open Sans";
+}
+
+.author_intro {
+    color: #1b1b1b;
+    font-family: "Arial Narrow", sans-serif;
+    font-weight: 600;
+}
+
+.westward_expansion_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:800px;
+    height:320px;
+    padding-bottom: 0px;
+}
+
+.essay {
+    font-family: Verdana, sans-serif;
+    text-indent: 50px;
+    padding-left: 175px;
+    padding-right: 175px;
+    text-align: left;
+    line-height: 25px;
+}
+.about_author {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.confirmation_picture {
+    display: block;
+    width:150px;
+    height:170px;
+    padding-bottom: 0px;
+}
+
+.author_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-indent: 15px;
+    padding-top: 0px;
+    margin-top: auto;
+    padding-bottom: 0px;
+    margin-bottom: auto;
+}
+
+.author_link {
+    text-indent: 0px;
+    padding-left: 0px;
+    margin-left: 15px;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+a.author_link:link, a.author_link:visited {
+    color: blue;
+    text-decoration: none;
+  }
+
+a.author_link:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.author_name {
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.author_bio {
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+.citations {
+    text-indent: 0px;
+    font-size: 12px;
+    font-family: Verdana, sans-serif;
+}
