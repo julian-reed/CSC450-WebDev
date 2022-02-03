@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--A short article about my research and personal thoughts regarding Bias in algorithms and AI-->
+<html>
+  <head>
+    <link rel="stylesheet" href="bias_style.css" type="text/css" />
+  </head>
+  <body class="body">
+    <h1 class="title">Bias in Algorithms, Data and AI</h1>
+    <h3 class="author">By: Julian Reed</h3>
+    <h3 class="description">
+      Computer algorithms are growing increasingly popular in many fields,
+      including law and health.
+      <br/>
+      They are biased against marginalized groups.
+    </h3>
+    <img src="algorithm_body.jpg" alt="Body image" class="algorithm_body" />
+    <p class = "article_content">
+      In the modern world, technology creates equally as many problems as
+      solutions. For every great algorithm - that has the power to save lives or
+      enhance them like every before - there are as many biases and issues, some
+      of which may have the inverse effect on groups that have been negatively
+      influenced for decades.
+    </p>
+    <div>
+        <div class = "sidebyside">
+        <p class = "body_paragraph">
+        A vital factor in determining any prison sentence is the threat that a
+        given person poses to society. In hopes of more accurately predicting this
+        outcome and preventing it, a company called <a href="https://www.equivant.com/northpointe-risk-need-assessments/" class = "link">Northpointe</a> has created an
+        algorithm that produces “risk assessment”, scores indicating how likely it
+        is that a certain criminal reoffends. These scores are calculated using
+        <a href="https://www.documentcloud.org/documents/2702103-Sample-Risk-Assessment-COMPAS-CORE.html" class = "link">137 questions</a> asking about a variety of factors, including “Was one of
+        your parents ever sent to jail or prison?”, “How many of your
+        friends/acquaintances are taking drugs illegally?” and “How often did you
+        get in fights while at school?”. Once the score is calculated, the score
+        is provided as additional information to judges to inform their decision.
+        This system, which in theory arms judges with more information to make the
+        right decision, seems to be a helpful solution. However, according to an
+        article from <a href="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing" class = "link">ProPublica</a>, “In 2014, then U.S. Attorney General Eric Holder
+        warned that the risk scores might be injecting bias into the courts,” and
+        expanded on this statement, saying that these scores “may exacerbate
+        unwarranted and unjust disparities that are already far too common in our
+        criminal justice system and in our society.” After conducting their own
+        research, ProPublica found that Holder’s warnings were justified.
+        Similarly, according to an article from <a href="https://insights.som.yale.edu/insights/can-bias-be-eliminated-from-algorithms" class = "link">Yale Insights</a>, “lenders are 80%
+        more likely to reject Black applicants than similar White applicants, a
+        disparity attributed in large part to commonly used mortgage-approval
+        algorithms.” There are many dangerous biases in some of the most important
+        algorithms.
+        </p>
+        <h3 class = "quote"> "Lenders are 80%
+            more likely to reject Black applicants than similar White applicants, a
+            disparity attributed in large part to commonly used mortgage-approval
+            algorithms."</h3>
+        </div>
+    <div>
+    <p class = "article_content">
+      Personally, I think that this is a serious issue. People having their
+      lives changed as a result of something unfair isn’t right. However, it is
+      very difficult to resolve this issue. One popular solution is to include
+      gender and race data when training a model, but masking that data when
+      evaluating new cases, as described in an article from <a href="https://insights.som.yale.edu/insights/can-bias-be-eliminated-from-algorithms" class = "link">Yale Insights</a>. While
+      I think that this is a good start, I think that this solution would still
+      result in the algorithm linking factors strongly correlated to race, like
+      income or housing location, to race, therefore changing very little.
+      Instead, I think that some of these data points shouldn’t be used at all.
+      Although I haven’t personally tested it, I believe that relatively
+      accurate results can still be attained without using potentially
+      bias-inducing data points, and therefore less biased algorithms can be
+      created.
+    </p>
+  </body>
+</html>
